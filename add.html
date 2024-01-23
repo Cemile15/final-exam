@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h1>Pulse <span>.</span></h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Restaurant</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Add</a></li>
+                    </ul>
+                </div>
+                <div class="phone">
+                    <p>Reservations </p> <span><i class="bi bi-telephone-fill"></i> 652-345 3222 11</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="add">
+        <form action="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <label for="cat">Category:</label>
+            <input type="text" id="cat">
+            <label for="num">Price:</label>
+            <input type="number" id="pri">
+            <input type="submit" id="sub">
+        </form>
+        <table>
+            <tr>
+                <th>Id:</th>
+                <th>Name:</th>
+                <th>Category:</th>
+                <th>Price:</th>
+                <th></th>
+            </tr>
+        </table>
+        <div class="modal">
+            <p>*Butun xanalari doldurun</p>
+            <i class="bi bi-x-lg" id="closeBtn"></i>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Copyright ©2024 All rights reserved | This template is made with by Colorlib</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./add.js"></script>
+
+
+</body>
+
+</html>
